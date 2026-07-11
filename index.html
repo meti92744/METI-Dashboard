@@ -490,7 +490,7 @@ document.addEventListener('click',e=>{if(!e.target.closest('.fg'))closeAll();});
 function toggleShift(id,btn){shiftState[id].on=!shiftState[id].on;btn.classList.toggle('on',shiftState[id].on);btn.querySelector('.dot').textContent=shiftState[id].on?'●':'○';applyAll();}
 
 /* ====== LOGIN LOGIC ====== */
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwJmZRwQ6kH-fJBqUvXxqTgIYD7UezKLIocCufWgbdVM4fI8si8zJRO9jo_FHj5ndTp/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxfWa48-ZPIE8s7MW7mmhdvrzlNnNkxR1wvDOKpDnz_3h1euwQB-UW9OmjzJKws3bh_/exec';
 let loggedInEmail = '';
 
 function checkSession(){
